@@ -1,11 +1,13 @@
-function characterChoice() {
+function Escolhapersonagem(personagem) {
     while (personagem != 'a' || 'b' || 'c') {
-        var personagem = prompt(`Qual ninja você deseja escolher?
+         var personagem = prompt(`Qual ninja você deseja escolher?
         Digite a letra da opção desejada
         
         A) Naruto
         B) Kakashi
         C) Sasuke`)
+
+        
         
         if (personagem.toLowerCase() === 'a') {
             alert('Você decidiu ser o Naruto')

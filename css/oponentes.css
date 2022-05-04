@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@700&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+div {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    border-color: #C09D73;
+    border-radius: 10px;
+}
+
+body {
+    background-image: url(../imagens/backgroundoponentes.png);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000000;
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    border: #ff8c00;
+    text-shadow: 5px 4px 1px #ff8c00;
+}
+
+section {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin: 30px 60px 30px 90px;
+    font-size: 30px;
+}
+
+
+.oponente1  {
+    width: 380px;
+    height: 450px;
+    transition: 0.4s;
+    background-color: #c52929;
+    border-color: #795dac;
+    border-radius: 10px;
+    
+}
+
+p {
+    padding-top: 15px;
+}
+
+.oponente2 {
+    width: 320px;
+    height: 450px;
+    transition: 0.4s;
+    background-color: #6b5ebb;
+    border-color: #C09D73;
+    border-radius: 10px;
+}
+
+
+div:hover img {
+    transform: scale(1.1);
+}
+
+.voltar {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-family: 'Cuprum', sans-serif;
+    color: rgb(235, 170, 31);
+    border: 2px rgb(223, 135, 20) solid;
+    border-radius: 12px;
+    padding: 0.5em 1em;
+    list-style-type: none;
+}
+
+.voltar {
+    background-color: rgb(0, 0, 0);
+}
+
+nav {
+    padding: 30px;
+    margin: 0 160px;
+}
