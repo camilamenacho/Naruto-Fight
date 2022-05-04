@@ -16,6 +16,7 @@ body {
     width: 100%;
     text-align: center;
     padding-top: 10px;
+    height: 30%;
 }
 
 h1 {
@@ -40,7 +41,7 @@ section {
     align-items: center;
     background-color: black;
     color: #ff8c00;
-    height: 350px;
+    height: 70%;
 }
 
 h3 {
@@ -62,6 +63,7 @@ h3 {
     align-items: center;
     justify-content: space-around;
     padding-top: 2%;
+    height: 10%;
 }
 
 .lutar {

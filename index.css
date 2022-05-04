@@ -20,7 +20,7 @@ body {
     padding-top: 20%;
     background-image: url(./imagens/backgroundindex.png);
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: #000000;
     height: 600px;
